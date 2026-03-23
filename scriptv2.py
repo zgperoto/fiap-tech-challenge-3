@@ -3,6 +3,7 @@ from awsglue.utils import getResolvedOptions
 from pyspark.context import SparkContext
 from awsglue.context import GlueContext
 from awsglue.dynamicframe import DynamicFrame
+from pyspark.sql.functions import input_file_name, regexp_extract
 
 args = getResolvedOptions(sys.argv, ['JOB_NAME'])
 sc = SparkContext()

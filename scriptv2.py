@@ -15,20 +15,13 @@ spark.conf.set("spark.sql.catalog.glue_catalog", "org.apache.iceberg.spark.Spark
 spark.conf.set("spark.sql.catalog.glue_catalog.catalog-impl", "org.apache.iceberg.aws.glue.GlueCatalog")
 spark.conf.set("spark.sql.catalog.glue_catalog.warehouse", "s3://fiap-tech-challange-covid-turma-grupo96/warehouse/")
 
-datasource = glueContext.create_dynamic_frame.from_options(
-    connection_type="s3",
-    connection_options={
-        "paths": ["s3://fiap-tech-challange-covid-turma-grupo96/data/raw/"],
-        "groupFiles": "inPartition",
-        "recurse": True
-    },
-    format="csv",
-    format_options={"withHeader": True, "separator": ","}
-)
+
+datasource = spark.read \
+    .option("header", "true") \
+    .option("inferSchema", "true") \
+    .csv("s3://fiap-tech-challange-covid-turma-grupo96/data/raw/")
 
 df = datasource.toDF()
-
-df = df.withColumn("mes", regexp_extract(input_file_name(), r"mes=(\d+)", 1))
 
 df.writeTo("glue_catalog.covid_db_iceberg.covid_tbl_iceberg") \
   .using("iceberg") \

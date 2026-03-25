@@ -1,0 +1,126 @@
+TOTAL DE PERGUNTAS = 13
+
+CARACTERISTICAS DA POPULAÇÃO (4 PERGUNTAS)
+
+1- A2. Qual sua idade? (A002)
+
+2- A3. Sexo: (A003)
+
+3- A5. Qual sua escolaridade? (A005)
+
+4- B11. Na semana passada, devido à pandemia do Coronavírus, em que medida o(a) Sr(a) restringiu o
+contato com as pessoas? (B011)
+
+CARACTERISTICAS DE SINTOMAS (5 PERGUNTAS)
+
+5- B1. Na semana passada, o(a) Sr(a) teve:
+a. Febre 1. Sim 2. Não 3. Não sabe (B0011)
+b. Tosse 1. Sim 2. Não 3. Não sabe (B0012)
+c. Dor de garganta 1. Sim 2. Não 3. Não sabe (B0013)
+d. Dificuldade para respirar 1. Sim 2. Não 3. Não sabe (B0014)
+e. Dor de cabeça 1. Sim 2. Não 3. Não sabe (B0015)
+f. Dor no peito 1. Sim 2. Não 3. Não sabe (B0016)
+g. Náusea/enjoo 1. Sim 2. Não 3. Não sabe (B0017)
+h. Nariz entupido ou escorrendo 1. Sim 2. Não 3. Não sabe (B0018)
+i. Fadiga/cansaço 1. Sim 2. Não 3. Não sabe (B0019)
+j. Dor nos olhos 1. Sim 2. Não 3. Não sabe (B00110)
+k. Perda de cheiro ou de sabor 1. Sim 2. Não 3. Não sabe (B00111)
+l. Dor muscular/ dor no corpo 1. Sim 2. Não 3. Não sabe (B00112)
+m. Diarreia 1. Sim 2. Não 3. Não sabe (B00113)
+
+6- B2. Por causa disso, o(a) Sr(a) foi a algum estabelecimento de saúde (na semana passada)? (B002)
+
+7- B4. Em que local(is) buscou o atendimento (na semana passada)?
+a. Posto de saúde/Unidade básica de saúde /Equipe de Saúde da Família (médico, enfermeiro, técnico
+de enfermagem ou agente comunitário de saúde) 1. Sim 2. Não (B0041)
+b. Pronto socorro do SUS/UPA 1. Sim 2. Não (B0042)
+c. Hospital do SUS 1. Sim 2. Não (B0043)
+d. Ambulatório ou consultório privado ou ligado às forças armadas 1. Sim 2. Não (B0044)
+e. Pronto socorro privado ou ligado às forças armadas 1. Sim 2. Não (B0045)
+f. Hospital privado ou ligado às forças armadas 1. Sim 2. Não (B0046)
+(Se b, c, e ou f = 1, siga B5, caso contrário, passe ao B7)
+
+8- B5. Ao procurar o estabelecimento de saúde, teve que ficar internado(a) por um dia (24 horas) ou
+mais? (B005)
+
+9- B8. O(A) Sr(a) fez algum teste para saber se estava infectado(a) pelo coronavírus? (B008)
+
+CARACTERISTICAS ECONOMICAS (4 PERGUNTAS) - 
+
+10- C7c. Que tipo de trabalho, cargo ou função você realiza no seu trabalho (único ou principal)? (C007C)
+1. Empregado doméstico, diarista, cozinheiro (em domicílios particulares)
+2. Faxineiro, auxiliar de limpeza etc. (em empresa pública ou privada)
+3. Auxiliar de escritório, escriturário
+4. Secretária, recepcionista
+5. Operador de Telemarketing
+6. Comerciante (dono do bar, da loja etc.)
+7. Balconista, vendedor de loja
+8. Vendedor a domicílio, representante de vendas, vendedor de catálogo (Avon, Natura etc.)
+9. Vendedor ambulante (feirante, camelô, comerciante de rua, quiosque)
+10. Cozinheiro e garçom (de restaurantes, empresas)
+11. Padeiro, açougueiro e doceiro
+12. Agricultor, criador de animais, pescador, silvicultor e jardineiro
+13. Auxiliar da agropecuária (colhedor de frutas, boia fria, etc.)
+14. Motorista (de aplicativo, de taxi, de van, de mototáxi, de ônibus)
+15. Motorista de caminhão (caminhoneiro)
+16. Motoboy
+17. Entregador de mercadorias (de restaurante, de farmácia, de loja, Uber Eats, IFood, Rappy etc.)
+18. Pedreiro, servente de pedreiro, pintor, eletricista, marceneiro
+19. Mecânico de veículos, máquinas industriais etc.
+20. Artesão, costureiro e sapateiro
+21. Cabeleireiro, manicure e afins
+22. Operador de máquinas, montador na indústria
+23. Auxiliar de produção, de carga e descarga
+24. Professor da educação infantil, de ensino fundamental, médio ou superior
+25. Pedagogo, professor de idiomas, música, arte e reforço escolar
+26. Médico, enfermeiro, profissionais de saúde de nível superior
+27. Técnico, profissional da saúde de nível médio
+28. Cuidador de crianças, doentes ou idosos
+29. Segurança, vigilante, outro trabalhador dos serviços de proteção
+30. Policial civil
+31. Porteiro, zelador
+32. Artista, religioso (padre, pastor etc.)
+33. Diretor, gerente, cargo político ou comissionado
+34. Outra profissão de nível superior (advogado, engenheiro, contador, jornalista etc.)
+35. Outro técnico ou profissional de nível médio
+36. Outros (especifique) (C007C1)
+
+11- C10. Se C6=2: Quanto recebe (ou retira) normalmente em seu trabalho? (C010)
+Se C6=1: Quanto recebe (ou retira) normalmente em todos os seus trabalhos?
+1. Valor em dinheiro (C0101)
+Faixa (C01011) (R$): |___|___|___|___|___|___|___|___| ,00 (C01012)
+
+12- D1. (Se mais de um morador) No seu domicilio, em (mês de referência), alguém, incluindo o(a) Sr(a),
+recebeu rendimento de:
+(Se apenas um morador) Em (mês de referência), o(a) Sr(a) recebeu rendimento de:
+(Observação: se houver mais de um morador recebendo o rendimento, some todos os valores recebidos
+deste tipo de rendimento)
+a. aposentadoria ou pensão? (D0011)
+1. Sim R$ ________________ (valor mensal) (D0013) Faixa: (D0012)
+2. Não
+b. pensão alimentícia, doação ou mesada em dinheiro de pessoa que não morava no domicílio? (D0021)
+1. Sim R$ ________________ (valor mensal) (D0023) Faixa: (D0022)
+2. Não
+c. Bolsa família (D0031)
+1. Sim R$ ________________ (valor mensal) (D0033) Faixa: (D0032)
+2. Não
+d. Benefício Assistencial de Prestação Continuada – BPC-LOAS? (D0041)
+1. Sim R$ ________________ (valor mensal) (D0043) Faixa: (D0042)
+2. Não
+e. Auxílios emergenciais relacionados ao coronavíus? (D0051)
+1. Sim R$ ________________ (valor mensal) (D0053) Faixa: (D0052)
+2. Não
+f. Seguro desemprego ou seguro-defeso? (D0061)
+1. Sim R$ ________________ (valor mensal) (D0063) Faixa: (D0062)
+
+13- F2a. No seu domicílio há os seguintes itens básicos de limpeza e proteção:
+a) Sabão ou detergente 1. Sim 2. Não 3. Não sabe (F002A1)
+b) Álcool 70% ou superior (em gel ou líquido) 1. Sim 2. Não 3. Não sabe (F002A2)
+c) Máscaras 1. Sim 2. Não 3. Não sabe (F002A3)
+d) Luvas descartáveis 1. Sim 2. Não 3. Não sabe (F002A4)
+e) Água sanitária ou desinfetante 1. Sim 2. Não 3. Não sabe (F002A5)
+
+
+
+
+

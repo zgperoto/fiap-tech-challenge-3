@@ -1,10 +1,10 @@
-# 📊 Projeto de Análise de Dados - COVID-19
+# Projeto de Análise de Dados - COVID-19 - FIAP
 
 Este repositório contém o desenvolvimento de um projeto de **Análise de Dados** solicitado por um grande hospital, com o objetivo de compreender o comportamento da população durante a pandemia da COVID-19 e identificar indicadores relevantes para o planejamento em caso de novos surtos.
 
 ---
 
-## 🎯 Objetivos
+## Objetivos
 - Realizar uma análise exploratória dos dados.
 - Descrever a estrutura e organização do banco de dados.
 - Apresentar as perguntas selecionadas pela equipe para responder ao problema.
@@ -12,7 +12,7 @@ Este repositório contém o desenvolvimento de um projeto de **Análise de Dados
 
 ---
 
-## 📌 Pré-requisitos
+## Pré-requisitos
 - Base de dados: **PNAD-COVID19**
 - Análise das características clínicas, populacionais e socioeconômicas.
 - Utilização de no máximo **20 questões** da pesquisa.
@@ -20,7 +20,7 @@ Este repositório contém o desenvolvimento de um projeto de **Análise de Dados
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 | Tecnologia             | Finalidade                                   |
 |------------------------|-----------------------------------------------|
@@ -36,7 +36,7 @@ Este repositório contém o desenvolvimento de um projeto de **Análise de Dados
 
 ---
 
-## 🚀 Passos Realizados
+## Passos Realizados
 
 ### 1. Exploração dos Dados
 Consulta e navegação pelos dados disponibilizados pelo IBGE sobre a COVID-19:  
@@ -53,7 +53,7 @@ Consulta e navegação pelos dados disponibilizados pelo IBGE sobre a COVID-19:
 
 ---
 
-## 📂 Estrutura do Repositório
+## Estrutura do Repositório
 
 ├── Query SQL/                # Consultas SQL utilizadas
 ├── csv/                      # Planilhas extraídas
@@ -61,5 +61,5 @@ Consulta e navegação pelos dados disponibilizados pelo IBGE sobre a COVID-19:
 │   └── desenvolvimento_do_analise.ipynb
 └── README.md                 # Documentação do projeto
 
-## 👥 Equipe
+## Equipe
 - **Analistas de Dados**: Alex, Cibele, José Peroto e Victor

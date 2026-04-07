@@ -1,5 +1,6 @@
 # Projeto de Análise de Dados - COVID-19 - FIAP
 
+
 Este repositório contém o desenvolvimento de um projeto de **Análise de Dados** solicitado por um grande hospital, com o objetivo de compreender o comportamento da população durante a pandemia da COVID-19 e identificar indicadores relevantes para o planejamento em caso de novos surtos.
 
 ---
@@ -53,6 +54,17 @@ Consulta e navegação pelos dados disponibilizados pelo IBGE sobre a COVID-19:
 
 ---
 
+## Script de ETL: `scripts/glue_etl.py`
+
+Este script é executado no **AWS Glue** e realiza o processo de ETL (Extração, Transformação e Carga) dos dados brutos da PNAD-COVID19. O fluxo é o seguinte:
+
+1. **Extração**: Lê os arquivos CSV armazenados no S3 (`s3://[S3_BUCKET]/data/raw/`), incluindo subdiretórios recursivamente.
+2. **Transformação**:
+   - Extrai a coluna `mes` a partir do nome do caminho do arquivo.
+   - Seleciona apenas as colunas relevantes para as perguntas do estudo (dados populacionais, sintomas, atendimento e indicadores econômicos).
+   - Renomeia todas as colunas com nomes legíveis para facilitar consultas via AWS Athena.
+3. **Carga**: Escreve os dados processados na tabela Iceberg `covid_tbl` no banco `covid_db_iceberg`, particionada por `mes`, utilizando o **AWS Glue Data Catalog** como catálogo Iceberg.
+
 ## Estrutura do Repositório
 
 ├── Query SQL/                # Consultas SQL utilizadas
@@ -62,4 +74,4 @@ Consulta e navegação pelos dados disponibilizados pelo IBGE sobre a COVID-19:
 └── README.md                 # Documentação do projeto
 
 ## Equipe
-- **Analistas de Dados**: Alex, Cibele, José Peroto e Victor
+- **Analistas de Dados**: Alex Moreira, Cibele De Assis, José Peroto e Victor Hugo Soares
